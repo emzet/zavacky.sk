@@ -1,0 +1,9 @@
+# Redirect domain aliases to primary domain
+https://zavacky.sk/* https://marek.zavacky.sk/:splat 301!
+https://www.zavacky.sk/* https://marek.zavacky.sk/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://emzet.netlify.com/* https://marek.zavacky.sk/:splat 301!
+
+# SPA
+/* /index.html 200
